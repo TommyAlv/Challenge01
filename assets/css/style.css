@@ -32,14 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+/* Updated to "nav" from "div" after updating to "nav" element */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -53,6 +50,7 @@ p {
     font-size: 16px;
 }
 
+/* Entire upper image for top of website */
 .hero {
     height: 800px;
     width: 100%;
